@@ -6,9 +6,9 @@ const Footer = () => {
     <footer className="bg-[#031533] text-white py-12">
       <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
         <div>
-          <h2 className="text-2xl font-bold mb-4">Hero Apps</h2>
+          <h2 className="text-2xl font-bold mb-4">HERO.IO</h2>
           <p className="text-gray-300 leading-relaxed">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt esse autem at, laudantium dolores eaque expedita quidem eveniet, mollitia officiis aut porro harum minus distinctio ab ducimus labore laborum repellendus!
+            HERO.IO is your ultimate app marketplace designed to help you discover, install, and manage productivity applications. We connect millions of users with innovative apps that transform their daily lives. Our mission is to make powerful tools accessible to everyone.
           </p>
         </div>
 

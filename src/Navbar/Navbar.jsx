@@ -1,6 +1,8 @@
 import { NavLink, Link } from "react-router-dom";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import { FaHome, FaBox, FaDownload } from "react-icons/fa";
+import logo from "../assets/logo.png";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -17,7 +19,7 @@ const Navbar = () => {
      
         <Link to="/" className="flex items-center gap-2">
           <img
-            src="https://cdn-icons-png.flaticon.com/512/906/906334.png"
+            src={logo}
             alt="logo"
             className="w-8 h-8"
           />
@@ -29,15 +31,24 @@ const Navbar = () => {
        
         <nav className="hidden md:flex items-center gap-8">
           <NavLink to="/" className={navLinkClass}>
-            Home
+            <span className="flex items-center gap-2">
+              <FaHome size={18} />
+              Home
+            </span>
           </NavLink>
 
           <NavLink to="/apps" className={navLinkClass}>
-            Apps
+            <span className="flex items-center gap-2">
+              <FaBox size={18} />
+              Apps
+            </span>
           </NavLink>
 
           <NavLink to="/installations" className={navLinkClass}>
-            Installation
+            <span className="flex items-center gap-2">
+              <FaDownload size={18} />
+              Installation
+            </span>
           </NavLink>
         </nav>
 
@@ -70,7 +81,10 @@ const Navbar = () => {
             className={navLinkClass}
             onClick={() => setOpen(false)}
           >
-            Home
+            <span className="flex items-center gap-2">
+              <FaHome size={18} />
+              Home
+            </span>
           </NavLink>
 
           <NavLink
@@ -78,7 +92,10 @@ const Navbar = () => {
             className={navLinkClass}
             onClick={() => setOpen(false)}
           >
-            Apps
+            <span className="flex items-center gap-2">
+              <FaBox size={18} />
+              Apps
+            </span>
           </NavLink>
 
           <NavLink
@@ -86,7 +103,10 @@ const Navbar = () => {
             className={navLinkClass}
             onClick={() => setOpen(false)}
           >
-            Installation
+            <span className="flex items-center gap-2">
+              <FaDownload size={18} />
+              Installation
+            </span>
           </NavLink>
 
           <a
