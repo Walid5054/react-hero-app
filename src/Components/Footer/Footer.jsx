@@ -13,24 +13,24 @@ const Footer = () => {
         </div>
 
         <div>
-          <h3 className="text-xl font-semibold mb-4">About Hero Apps</h3>
+          <h3 className="text-xl font-semibold mb-4">Features</h3>
           <ul className="space-y-2 text-gray-300">
-            <li>Newsroom</li>
-            <li>Leadership</li>
-            <li>Lorem, ipsum.</li>
-            <li>Lorem ipsum dolor sit.</li>
-            <li>Newsroom</li>
+            <li className="hover:text-purple-400 transition">Browse 10,000+ Apps</li>
+            <li className="hover:text-purple-400 transition">One-Click Install</li>
+            <li className="hover:text-purple-400 transition">User Reviews & Ratings</li>
+            <li className="hover:text-purple-400 transition">Secure & Verified</li>
+            <li className="hover:text-purple-400 transition">Track Downloads</li>
           </ul>
         </div>
 
         <div>
-          <h3 className="text-xl font-semibold mb-4">About Hero Apps</h3>
+          <h3 className="text-xl font-semibold mb-4">Company</h3>
           <ul className="space-y-2 text-gray-300">
-            <li>Newsroom</li>
-            <li>Leadership</li>
-            <li>Lorem, ipsum.</li>
-            <li>Lorem ipsum dolor sit.</li>
-            <li>Newsroom</li>
+            <li className="hover:text-purple-400 transition">About Us</li>
+            <li className="hover:text-purple-400 transition">Privacy Policy</li>
+            <li className="hover:text-purple-400 transition">Terms of Service</li>
+            <li className="hover:text-purple-400 transition">Contact Support</li>
+            <li className="hover:text-purple-400 transition">Blog & Updates</li>
           </ul>
         </div>
 

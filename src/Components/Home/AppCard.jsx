@@ -24,7 +24,6 @@ const Home = ({ app }) => {
           <span>⬇ {downloads / 1000000}M</span>
           <span>⭐ {ratingAvg}</span>
         </div>
-
       </div>
     </Link>
   );

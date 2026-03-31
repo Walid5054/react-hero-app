@@ -15,8 +15,6 @@ const Navbar = () => {
   return (
     <header className="w-full bg-white shadow-md fixed top-0 left-0 z-50">
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
-
-     
         <Link to="/" className="flex items-center gap-2">
           <img
             src={logo}
@@ -27,8 +25,6 @@ const Navbar = () => {
             HERO.IO
           </span>
         </Link>
-
-       
         <nav className="hidden md:flex items-center gap-8">
           <NavLink to="/" className={navLinkClass}>
             <span className="flex items-center gap-2">
@@ -51,8 +47,6 @@ const Navbar = () => {
             </span>
           </NavLink>
         </nav>
-
-     
         <div className="hidden md:block">
           <a
             href="https://github.com/your-username"
@@ -63,8 +57,6 @@ const Navbar = () => {
             Contribute
           </a>
         </div>
-
-      
         <button
           className="md:hidden"
           onClick={() => setOpen(!open)}

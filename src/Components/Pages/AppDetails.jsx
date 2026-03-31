@@ -51,7 +51,6 @@ const AppDetails = () => {
       <Toaster position="top-right" />
 
       <div className="flex flex-col lg:flex-row gap-12 mb-16 pb-8 border-b">
-        {/* Left: Image */}
         <div className="lg:w-1/4 flex items-start justify-center">
           <img
             src={app.image}
@@ -60,12 +59,10 @@ const AppDetails = () => {
           />
         </div>
 
-        {/* Right: Content */}
         <div className="lg:w-3/4">
           <h1 className="text-3xl font-bold mb-1">{app.title}</h1>
           <p className="text-gray-600 mb-8">Developed by <span className="text-blue-600 font-semibold">{app.companyName}</span></p>
 
-          {/* Stats */}
           <div className="flex gap-8 mb-6">
             <div className="text-center">
               <div className="text-green-500 text-2xl mb-2">⬇</div>

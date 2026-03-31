@@ -6,7 +6,6 @@ import Apps from "../Components/Pages/Apps";
 import AppDetails from "../Components/Pages/AppDetails";
 import MyInstallations from "../Components/Pages/MyInstallations";
 
-// 🔥 Loader function (fetch from public folder)
 const appsLoader = async () => {
   const res = await fetch("/data.json");
   return res.json();
